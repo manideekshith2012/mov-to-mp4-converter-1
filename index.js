@@ -299,3 +299,9 @@ server.headersTimeout = 0;
 server.listen(PORT, () => {
   console.log(`MOV to MP4 converter running at http://localhost:${PORT}`);
 });
+
+
+app.listen(PORT, () => {
+  console.log("Server running");
+});
+
