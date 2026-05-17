@@ -19,6 +19,7 @@ const types = {
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
+  ".png": "image/png",
   ".svg": "image/svg+xml",
 };
 
@@ -299,4 +300,3 @@ server.headersTimeout = 0;
 server.listen(PORT, () => {
   console.log(`MOV to MP4 converter running at http://localhost:${PORT}`);
 });
-
